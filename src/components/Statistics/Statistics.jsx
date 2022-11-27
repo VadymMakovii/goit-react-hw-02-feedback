@@ -6,7 +6,9 @@ import {
 } from 'components/Statistics/Statistics.styled';
 
 export const Statistics = ({
-  state: { good, neutral, bad },
+  good,
+  neutral,
+  bad,
   total,
   positivePercentage,
 }) => {

@@ -14,6 +14,9 @@ border-radius: 5px;
 background-color: inherit;
 border: 1px solid #d5d3d3;
 cursor: pointer;
+&:hover {
+    background-color: #7171ff;
+}
 `;
 
 export const OptionItem = styled.li`
